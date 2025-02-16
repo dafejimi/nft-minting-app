@@ -4,7 +4,7 @@ import React, { Suspense, useState, useEffect } from "react";
 import { useAccount } from 'wagmi';
 
 const DEFAULT_IMAGE = "/images/img_img.png"; // Updated to match default image
-const API_BASE_URL = "social-deana-dafe-6dd7000c.koyeb.app/api/nft";
+const API_BASE_URL = 'https://social-deana-dafe-6dd7000c.koyeb.app/api/nft';
 
 export default function NFTGallerySection() {
   const [nfts, setNfts] = useState([]);
