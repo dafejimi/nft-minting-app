@@ -7,7 +7,7 @@
 - 🖥️ **Frontend**: [Deployed Frontend](https://nft-minting-app-lovat.vercel.app/)
 - ⚙️ **Backend**: [Deployed API](social-deana-dafe-6dd7000c.koyeb.app/)  
 - 🎥 **Demo Video**: [Demo Recording](https://drive.google.com/file/d/1M4TLJu3hfwVrwxqvKVlgqJcsBmaVwiQ3/view?usp=sharing)  
-- 🔗 **Backend Repository**: [GitHub Repo](https://github.com/yourusername/nft-minting-backend)  
+- 🔗 **Backend Repository**: [GitHub Repo](https://github.com/dafejimi/nft-minting-app-backend)  
 
 ---
 
