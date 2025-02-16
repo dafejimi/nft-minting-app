@@ -43,7 +43,7 @@ const Input = React.forwardRef(
         className={`
           ${className} flex items-center justify-center cursor-text 
           text-blue_gray-200 text-[16px] border-blue_gray-800 border 
-          border-solid bg-blue_gray-900 rounded-lg 
+          border-solid rounded-lg 
           ${shape && shapes[shape]} 
           ${variant && (variants[variant]?.[color] || variants[variant])} 
           ${size && sizes[size]}
@@ -57,6 +57,7 @@ const Input = React.forwardRef(
           name={name}
           placeholder={placeholder}
           onChange={onChange}
+          className="w-full bg-transparent focus:bg-transparent focus:outline-none"
           {...restProps}
         />
         {!!suffix && suffix}

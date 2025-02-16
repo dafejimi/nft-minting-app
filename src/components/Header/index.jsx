@@ -62,7 +62,7 @@ const Header = ({ ...props }) => {
       <div className="container-xs flex justify-center md:px-5">
         <div className="flex w-full items-center justify-between gap-5 px-6 py-4 sm:px-5">
           <Img
-            src="images/img_div.svg"
+            src="images/Frame.svg"
             alt="Div"
             className="h-[28px] w-[10%] object-contain"
           />
