@@ -7,7 +7,7 @@ import MintSuccessSection from "./MintSuccessSection";
 /* global BigInt */  // Add this line to tell ESLint that BigInt is a global object
 
 const CONTRACT_ADDRESS = '0x743f49311a82fe72eb474c44e78da2a6e0ae951c';
-const API_BASE_URL = 'http://localhost:4000/api/nft'; // e.g., http://localhost:3001/api/nft
+const API_BASE_URL = 'reliable-celie-dafe-5e4c0675.koyeb.app/api/nft'; // e.g., http://localhost:3001/api/nft
 
 export default function MintNFTSection() {
   const { address } = useAccount();
