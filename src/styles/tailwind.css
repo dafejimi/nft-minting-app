@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /*------ Color variables ------*/
+    --black_900: #000000;
+    --black_900_cc: #000000cc;
+    --blue_gray_100: #d1d5db;
+    --blue_gray_100_01: #ced4da;
+    --blue_gray_200: #adaebc;
+    --blue_gray_300: #9ca3af;
+    --blue_gray_800: #374151;
+    --blue_gray_900: #1f2937;
+    --blue_gray_900_7f: #1f29377f;
+    --deep_purple_a200: #8b5cf6;
+    --gray_900: #111827;
+    --gray_900_7f: #1118277f;
+    --pink_300: #ec4899;
+    --teal_400: #10b981;
+    --teal_400_33: #10b98133;
+    --white_a700: #ffffff;
+
+    /*------ Border radius variables ------*/
+    --radius-xs: 8px;
+    --radius-sm: 12px;
+    --radius-md: 16px;
+    --radius-lg: 20px;
+    --radius-xl: 40px;
+
+    /*------ Spacing variables ------*/
+    --space-xs: 8px;
+    --space-sm: 10px;
+    --space-md: 14px;
+    --space-lg: 16px;
+    --space-xl: 22px;
+    --space-2xl: 24px;
+    --space-3xl: 30px;
+  }
+
+  [type="text"],
+  input:where(:not([type])),
+  [type="email"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="week"],
+  [multiple],
+  textarea,
+  select {
+    appearance: none;
+    background-color: transparent;
+    border-color: unset;
+    border-width: 0;
+    border-radius: unset;
+    padding: unset;
+    font-size: unset;
+    line-height: unset;
+  }
+
+  /* Override default focus colors for tailwindcss-forms */
+  [type="text"]:focus,
+  [type="email"]:focus,
+  [type="url"]:focus,
+  [type="password"]:focus,
+  [type="number"]:focus,
+  [type="date"]:focus,
+  [type="search"]:focus,
+  [multiple]:focus,
+  textarea:focus,
+  select:focus {
+    --tw-ring-color: transparent;
+    border-color: transparent;
+  }
+
+  [type="radio"]:focus,
+  [type="checkbox"]:focus {
+    --tw-ring-color: transparent;
+  }
+}
+
+@layer components {
+  /*-------------------------------------
+     Container CSS
+  --------------------------------------*/
+  .container-xs {
+    @apply w-full mx-auto max-w-7xl;
+  }
+}

@@ -1,0 +1,86 @@
+@layer base {
+    :root {
+      /*------Color variables------*/
+      --black_900: #000000;
+      --blue_800: #165fc6;
+      --gray_200: #f0f1ef;
+      --gray_200_01: #eff0eb;
+      --gray_300: #e4e5e1;
+      --gray_50: #fafaf7;
+      --gray_600: #767676;
+      --gray_700: #646462;
+      --gray_900: #222222;
+      --gray_900_01: #1a1a1a;
+      --gray_900_26: #14141426;
+      --green_800: #158613;
+      --white_a700: #ffffff;
+  
+      /*------Shadow variables------*/
+      --shadow-xs: 0 1px 4px 0 #14141426;
+  
+      /*------Border radius variables------*/
+      --radius-xs: 2px;
+      --radius-sm: 6px;
+      --radius-md: 8px;
+      --radius-lg: 10px;
+      --radius-xl: 12px;
+      --radius-2xl: 16px;
+      --radius-3xl: 24px;
+  
+      /*------Spacing variables------*/
+      --space-xs: 2px;
+      --space-sm: 4px;
+      --space-md: 4px;
+      --space-lg: 6px;
+      --space-xl: 8px;
+      --space-2xl: 10px;
+      --space-3xl: 16px;
+    }
+  
+    [type="text"],
+    input:where(:not([type])),
+    [type="email"],
+    [type="url"],
+    [type="password"],
+    [type="number"],
+    [type="date"],
+    [type="datetime-local"],
+    [type="month"],
+    [type="search"],
+    [type="tel"],
+    [type="time"],
+    [type="week"],
+    [multiple],
+    textarea,
+    select {
+      appearance: none;
+      background-color: transparent;
+      border-color: unset;
+      border-width: 0;
+      border-radius: unset;
+      padding: unset;
+      font-size: unset;
+      line-height: unset;
+    }
+  
+    /* Override default focus colors for tailwindcss-forms */
+    [type="text"]:focus,
+    [type="email"]:focus,
+    [type="url"]:focus,
+    [type="password"]:focus,
+    [type="number"]:focus,
+    [type="date"]:focus,
+    [type="search"]:focus,
+    [multiple]:focus,
+    textarea:focus,
+    select:focus {
+      --tw-ring-color: transparent;
+      border-color: transparent;
+    }
+  
+    [type="radio"]:focus,
+    [type="checkbox"]:focus {
+      --tw-ring-color: transparent;
+    }
+  }
+  
