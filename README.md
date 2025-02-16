@@ -48,7 +48,7 @@
 
 Example Request:
 ```bash
-curl -X POST "https://your-backend-api.com/api/nft" \
+curl -X POST "[social-deana-dafe-6dd7000c.koyeb.app/api/nft" \
 -H "Content-Type: application/json" \
 -d '{
   "nftId": 12345,
